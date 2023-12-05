@@ -1,9 +1,5 @@
 package com.kaikai.leetcode.baidu;
 
-import com.kaikai.leetcode.二叉树的右视图199;
-
-import javax.swing.tree.TreeNode;
-
 /**
  * Package: com.kaikai.leetcode.baidu
  * Description：
