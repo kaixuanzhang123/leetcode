@@ -9,9 +9,6 @@ package com.kaikai.leetcode.interviewTop100;
  * Modified By:
  */
 
-import jdk.nashorn.internal.objects.NativeNumber;
-
-import java.io.CharArrayReader;
 import java.util.*;
 
 /**

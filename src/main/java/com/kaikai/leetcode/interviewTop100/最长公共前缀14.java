@@ -1,7 +1,5 @@
 package com.kaikai.leetcode.interviewTop100;
 
-import sun.security.util.Length;
-
 /**
  * Package: com.kaikai.leetcode.interviewTop100
  * Description：

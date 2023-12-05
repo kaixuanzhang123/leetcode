@@ -1,9 +1,5 @@
 package com.kaikai.leetcode;
 
-import sun.util.resources.cldr.fr.CalendarData_fr_MQ;
-
-import javax.swing.tree.TreeNode;
-
 /**
  * Package: com.kaikai.leetcode
  * Description：
