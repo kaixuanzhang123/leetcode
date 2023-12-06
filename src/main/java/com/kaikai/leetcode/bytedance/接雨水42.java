@@ -9,6 +9,7 @@ package com.kaikai.leetcode.bytedance;
  * Modified By:
  */
 public class 接雨水42 {
+    //双指针，解题很妙  搞懂为啥双指针能解决问题，这题会很简单
 
     public static int trap(int[] height) {
         int i = 0;
