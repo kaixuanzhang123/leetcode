@@ -1,10 +1,5 @@
 package com.kaikai.leetcode.interviewTop100;
 
-import com.kaikai.leetcode.重排链表143;
-import com.kaikai.leetcode.链表中第K个节点;
-
-import javax.lang.model.element.VariableElement;
-
 /**
  * Package: com.kaikai.leetcode.interviewTop100
  * Description：
