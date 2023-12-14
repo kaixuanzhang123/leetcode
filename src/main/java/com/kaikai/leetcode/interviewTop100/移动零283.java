@@ -1,14 +1,21 @@
 package com.kaikai.leetcode.interviewTop100;
 
 public class 移动零283 {
-    //错误解题思路，无法解决 int[] nums = new int[]{0, 0, 1}这样的数据
+    //这种方式也可以，但是没有双指针巧妙
     public static void moveZeroesError(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++) {
             if (nums[i] == 0) {
+                int k = i;
                 for (int j = i + 1; j < nums.length; j++) {
-                    int temp = nums[j - 1];
-                    nums[j - 1] = nums[j];
+                    //跳过0的情况
+                    if (nums[j] == 0) {
+                        continue;
+                    }
+                    //交换0与非0 数字
+                    int temp = nums[k];
+                    nums[k] = nums[j];
                     nums[j] = temp;
+                    k = j;
                 }
             }
         }
@@ -36,9 +43,9 @@ public class 移动零283 {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 1, 0, 3, 12};
-        //int[] nums = new int[]{0, 0, 1};
-        moveZeroes(nums);
+        //int[] nums = new int[]{1, 1, 0, 3, 12};
+        int[] nums = new int[]{0, 0, 1};
+        moveZeroesError(nums);
         for (int num : nums) {
             System.out.println(num);
         }
