@@ -21,7 +21,7 @@ public class 两两交换链表中的节点24 {
             } else {
                 pre.next = new ListNode(head.val);
                 pre = pre.next;
-                head = nextNode;
+                head = null;
             }
         }
         return dummy.next;
